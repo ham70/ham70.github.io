@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d6d35d2e.css",
+    "main.js": "/static/js/main.5c986038.js",
+    "static/media/linkedIn.png": "/static/media/linkedIn.d387e0857496348682ce.png",
+    "static/media/head.JPG": "/static/media/head.21053df81ce4f1d220d0.JPG",
+    "static/media/kmap2.png": "/static/media/kmap2.905b7177d53f1284478d.png",
+    "static/media/github.png": "/static/media/github.345dc4a21070f9083ca7.png",
+    "static/media/nycCheapEats_logo313x313.png": "/static/media/nycCheapEats_logo313x313.ea7c7e01aebe5955fc01.png",
+    "static/media/bing200.png": "/static/media/bing200.9c297f1ae961a84d56e6.png",
+    "index.html": "/index.html",
+    "main.d6d35d2e.css.map": "/static/css/main.d6d35d2e.css.map",
+    "main.5c986038.js.map": "/static/js/main.5c986038.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d6d35d2e.css",
+    "static/js/main.5c986038.js"
+  ]
+}
