@@ -1,3 +1,12 @@
+body {
+  background-color: antiquewhite;
+  overflow-x: hidden;
+  height: 100vh;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +44,168 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  scroll-padding-top:200px;
+}
+
+
+/*=======================================================*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 5px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 7px;
+}
+
+.navbar a {
+  display:inline-block;
+  padding: 10px 20px;
+
+  border-radius: 15px;;
+  background-color:#61dafb;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  background-color: #3498db; /* replace with your preferred color */
+}
+
+/*Welcome section =====================================================*/
+.welcome-section {
+  padding-top: 90px;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.my-info{
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.about-me{
+  max-width: 500px;
+}
+
+.headshot {
+  width: 500px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.my-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+
+.link-logo{
+  width:100px;
+  height: auto;
+}
+
+/*project section =====================================================*/
+.project-section {
+  padding-top: 50px;
+}
+
+.project-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-gallery a{
+  padding: 10px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  width: 500px;
+  height: 300px;
+}
+
+.project:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.project-techs{
+  font-size: 50px;
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-image {
+  flex: 1;
+  padding:5px;
+  width: 200px;
+  align-items: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*experience section =====================================================*/
+/* General styles */
+.experience-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.exp-gallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.exp {
+  width: 80%;
+  margin: 20px 0;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  background-color: white;
+}
+
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.exp-title {
+  flex: 1;
+}
+
+.exp-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%; 
+  object-fit: cover; 
+}
+
+.exp-description {
+  text-align: left;
+}
+
+
+/*more section =====================================================*/
+.more-section {
+  padding-top: 50px;
 }
