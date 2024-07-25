@@ -14,7 +14,7 @@ import { FaPython } from "react-icons/fa6";
 const Projects = () => {
     return (
         <div id='projects' className='project-section'>
-            <h1>Projects</h1>
+            <h1 className='projects-header'>Projects</h1>
             <div className='project-gallery'>
                 <a href="https://nyccheapeats.vercel.app" target="_blank" rel="noopener noreferrer">
                     <div className='project'>
