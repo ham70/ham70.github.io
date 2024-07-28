@@ -3,6 +3,8 @@ import { Link } from "react-router-dom"
 import headshot from '../assets/head.JPG'
 import githubLogo from '../assets/github.png'
 import linkedInLogo from '../assets/linkedIn.png'
+import Resume from '../assets/MatthewHam_Resume.pdf'
+import resumeLogo from '../assets/resume-icon-png-5.png'
 
 const Welcome = () => {
     return (
@@ -16,6 +18,9 @@ const Welcome = () => {
                     </a>
                     <a href="https://www.linkedin.com/in/matthew-ham-/" target="_blank" rel="noopener noreferrer">
                         <img className='link-logo' src={linkedInLogo}></img>
+                    </a>
+                    <a href={Resume} target="_blank" rel="noopener noreferrer">
+                    <img className='link-logo' src={resumeLogo}></img>
                     </a>
                 </div>
             </div>
