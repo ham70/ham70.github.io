@@ -1,15 +1,16 @@
 import React from 'react';
 import nycCheapEats from '../assets/nycCheapEats_logo313x313.png';
 import kMap from '../assets/kmap2.png';
+import Pantry from '../assets/pantry.png';
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
 import { FaReact } from "react-icons/fa6";
 import { FaNodeJs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa6";
-
-
-
+import { RiNextjsFill } from "react-icons/ri";
+import { SiMui } from "react-icons/si";
+import { IoLogoFirebase } from "react-icons/io5";
 
 const Projects = () => {
     return (
@@ -30,6 +31,22 @@ const Projects = () => {
                         </div>
                         <div className='project-image'>
                             <img src={nycCheapEats} alt="NYC Cheap Eats"></img>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://pantry0.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <div className='project'>
+                        <div className='project-info'>
+                            <h3 className='project-title'>Pantry App</h3>
+                            <p className='project-description'>Pantry item tracking and organization web application.</p>
+                            <div className='project-techs'>
+                                <RiNextjsFill/>
+                                <SiMui/>
+                                <IoLogoFirebase/>
+                            </div>
+                        </div>
+                        <div className='project-image'>
+                            <img src={Pantry} alt="pantry app"></img>
                         </div>
                     </div>
                 </a>
