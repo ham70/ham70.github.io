@@ -28,7 +28,7 @@ const Experience = () => {
                     <div className='exp-header'>
                         <div className='exp-title'>
                             <h3 className='exp-name'>HeadStarter SWE Fellow</h3>
-                            <h5 className='exp-date'>July 2024-Ongoing</h5>
+                            <h5 className='exp-date'>July 2024-Present</h5>
                         </div>
                         <img className='exp-image' src={headstart}></img>
                     </div>
@@ -41,12 +41,12 @@ const Experience = () => {
                     <div className='exp-header'>
                         <div className='exp-title'>
                             <h3 className='exp-name'>Binghamton University ResConn</h3>
-                            <h5 className='exp-date'>Starting August 2024</h5>
+                            <h5 className='exp-date'>August 2024-Present</h5>
                         </div>
                         <img className='exp-image' src={bing}></img>
                     </div>
                     <div className='exp-description'>
-                        <li>Campus Residential computer consultant assiting undergrads and facility with IT needs</li>
+                        <li>Campus Residential computer consultant assiting undergrads and facility with various IT needs such as updating various device drivers and connecting to the internet</li>
                     </div>
                 </div>
             </div>
