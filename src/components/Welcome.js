@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import headshot from '../assets/head.JPG'
 import githubLogo from '../assets/github.png'
 import linkedInLogo from '../assets/linkedIn.png'
-import Resume from '../assets/MatthewHam_Resume.pdf'
+import Resume from '../assets/MatthewHamResume.pdf'
 import resumeLogo from '../assets/resume-icon-png-5.png'
 
 const Welcome = () => {
